@@ -1,5 +1,5 @@
 ---
-- hosts: 10.128.15.204
+- hosts: all
   tasks:
     - name: print message
       debug:
