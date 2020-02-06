@@ -1,0 +1,6 @@
+---
+- hosts: 10.128.15.204
+  tasks:
+    - name: print message
+      debug:
+        msg: hello world.....
